@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
  {
-int withdrawl_amt;
+int withdrawl_amt;int b;
 float initial_bal;
 scanf("%d,%f",&withdrawl_amt,&initial_bal); 
 if(withdrawl_amt %5==0 &&(initial_bal>(withdrawl_amt+0.5)))
