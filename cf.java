@@ -1,19 +1,21 @@
-import java.util.Scanner;
 
-public class cf {
-    public static void main(String[] args) {
+import java.util.regex.Matcher; 
+import java.util.regex.Pattern;
+ class Main
 
-        Scanner sc = new Scanner(System.in);
+{
+public static void main(String args[])
 
-        System.out.println("Enter take amount : ");
-        int take = sc.nextInt();
-        
-        System.out.println("Enter Balance: ");
-        double balance = sc.nextInt();
+{
 
-       
-        double newb = balance - take-0.5;
+Pattern pattern = Pattern.compile("Te[a-zA-Z0-9]nical"); 
+Matcher m = pattern.matcher("Te7nical");
+if (m.find())
 
-        System.out.println(newb);
-    }
+System.out.println("true");
+else
+
+System.out.println("false");
+
+}
 }
