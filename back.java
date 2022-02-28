@@ -11,7 +11,7 @@ public class back {
     }
 
     public static void main(String[] args) {
-        int[] array = { 6, 5, 7, 9, 4, 0, 2, 1 };
+        int[] array = { 6, 5, 7, 9, 4, ,11, 0, 2, 1 };
         int target = 10;
         int[] result = twonumSum(array, target);
         for (int i = 0; i < result.length; i++) {
